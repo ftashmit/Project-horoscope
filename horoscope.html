@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="horoscope.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="horoscope.js"></script>
+    </script>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1 class="txtheader">Know about your stars!</h1>
+		<div id="img_horo"></div>
+	</div>
+	<div id="selectionarea">
+		<p><h3 id="txt">Please select your zodiac sign.</h3></p>
+
+		<select id="horoscope" name="zodiac" onchange="selffunction()">
+			<option  value="default">Please select</option>
+			<option value="Aries">Aries (March 21 - April 19)</option>
+			<option value="Taurus">Taurus (April 20 - May 20)</option>
+			<option value="Gemini">Gemini (May 21 - June 20)</option>
+			<option value="Cancer">Cancer (June 21 - July 22)</option>
+			<option value="Leo">Leo (July 23 - August 22)</option>
+			<option value="Virgo">Virgo (August 23 - September 22)</option>
+			<option value="Libra">Libra (September 23 - October 22)</option>
+			<option value="Scorpio">Scorpio (October 23 - November 21)</option>
+			<option value="Sagittarius">Sagittarius (November 22 - December 21)</option>
+			<option value="Capricor">Capricorn (December 22 - January 19)</option>
+			<option value="Aquarius">Aquarius (January 20 - February 18)</option>
+			<option value="Pisces">Pisces (February 19 - March 20)</option>
+			
+		</select>
+		<input  type="button" value="Restart" name="" onclick="window.location.reload()" id="restartbtn" style="visibility: hidden;">
+	 </div>
+	 <br>
+	 <div id="horoscopetxt">
+	 	<h3 id="textrow1"></h3>
+	 	<textarea id="textrow2" style="margin:0px;width: 1208px; height: 420px;"  disabled></textarea>
+	 </div>
+	 <br>
+</div>
+</body>
+</html>
