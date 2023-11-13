@@ -1,0 +1,121 @@
+body
+{
+	background: linear-gradient(#0a1135  40%,rgb(0, 0, 0)  60%);
+}
+#container
+{
+	width:80%;
+	height: 700px;
+	font-size: 	20px;
+	font-family: Inter, sans-serif;
+	
+	color: white;
+	margin: auto; 
+}
+#header
+{
+	height: 70px;
+	line-height: 70px;
+	font-family: Inter, sans-serif;
+	color: rgb(255, 254, 254);
+	text-align: center;
+	
+}
+#selectarea
+{
+	padding-left: 20px;
+	font-weight: bolder;
+	color: chocolate;
+}
+#horoscopetxt
+{
+	height: 450px;
+	padding-right: 20px;
+	border-width: 1px;
+	border-style: solid;
+	color: rgb(0, 0, 0);
+	background:white;
+    
+}
+#textrow2
+{
+	font-size: 	20px;
+	font-family: Inter, sans-serif;
+    font-weight: 600;
+	background: white;
+	color:rgb(0, 0, 0);
+	user-select: none;
+}
+
+#img_horo
+{
+	margin-right:150px;
+	height: 50px;
+	width: 50px;
+	top:60%;
+	left:-50%;
+	transform: translate(1800%,250%);
+}
+#horoscope
+{
+	font-size: 	23px;
+	font-family: Inter, sans-serif;
+    font-weight: 580;
+	
+	color:rgb(0, 0, 0);
+	background: #dddddd;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,1);
+	border-radius: 05px;
+
+}
+#horoscope:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.727),0 17px 50px 0 rgba(0,0,0,0.50)
+}
+#txt
+{
+	font-size: 	20px;
+	font-family: Inter, sans-serif;
+    font-weight: 600;
+	text-transform: uppercase;
+
+}
+option{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+#restartbtn
+{
+	float: right;
+	font-size: 	30px;
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	color:rgb(0, 0, 0);
+	background: #ffffff;
+	border-radius: 5px;
+	border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,1);
+}
+
+#restartbtn:hover 
+{
+    background: rgb(18, 79, 178);
+    color: white;
+}
+h3.textrow1{
+    background-color: white;
+}
+h1.txtheader{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+}
+.txtheader
+{
+	animation: color 1s infinite;
+}
+@keyframes color {
+  		0%   {color: rgb(255, 255, 255);}
+  		25%  {color: rgb(255, 255, 255);}
+  		50%  {color: rgb(255, 255, 255);}
+  		100% {color: rgb(255, 255, 255);}
+	}
