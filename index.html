@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+	<style>
+	body
+	{
+		background:black; 
+	}
+	#img
+	{
+		position: absolute;
+		top:20%;
+		left:33%;
+		transform: translate(0%,0%);
+		animation: nm 10s infinite;
+		
+	}
+	@keyframes nm{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	   }
+	}
+	.txt{
+		font-size: 50px;
+		font-family: 'Inter', sans-serif;
+        font-weight: bold;
+		top:0%;
+		left:35%;
+		transform: translate(33%,50%);
+		animation: color 1s infinite;
+
+	}
+	@keyframes color {
+  		0%   {color: red;}
+  		25%  {color: green;}
+  		50%  {color: blue;}
+  		100% {color: rgb(255, 255, 255);}
+	}
+
+	</style>
+</head>
+<body>
+	<h1 class="txt">Astrology Horoscope</h1>
+	<div id="img"><a href="horoscope.html"><img src="images/hs.png"></a></div>	
+</body>
+</html>
