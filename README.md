@@ -1,13 +1,13 @@
-﻿# Project-horoscope
+
 **README.md**
 
-**Project Name:** Project-Horoscope
+## **Project Name:** Project-Horoscope
 
-**Description:**
+## **Description:**
 
 This is a HTML, CSS, and JavaScript project that allows users to select their zodiac sign and returns all the information about that zodiac sign, such as the sign's element, modality, symbol, ruling planet, and personality traits.
 
-**How to use:**
+## **How to use:**
 
 1. Clone the project repository to your local machine.
 2. Open the project in a code editor or IDE.
@@ -22,7 +22,7 @@ npm start
 6. Click the "Submit" button.
 7. View the information about your zodiac sign.
 
-**Requirements:**
+## **Requirements:**
 
 * Node.js
 * NPM or Yarn
@@ -38,7 +38,7 @@ npm start
 npm install
 ```
 
-**Running the project:**
+## **Running the project:**
 
 1. Start the development server by running the following command:
 
@@ -48,18 +48,18 @@ npm start
 
 2. Open a web browser and navigate to `http://localhost:3000`.
 
-**Deployment:**
+## **Deployment:**
 
 To deploy the project to a production environment, you can use a variety of hosting providers, such as Netlify, Vercel, or Heroku.
 
-**Contributing:**
+## **Contributing:**
 
 If you would like to contribute to this project, please feel free to open a pull request. We welcome all contributions, big or small.
 
-**License:**
+## **License:**
 
 This project is licensed under copyright.
 
-**Contact:**
+## **Contact:**
 
 If you have any questions or would like to get in touch, please feel free to contact me at **ashmitdutta@gmail.com**
